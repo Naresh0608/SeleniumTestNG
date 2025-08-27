@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Framework.SeleniumRevision.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Error Scenarios(failed)">
+    <classes>
+      <class name="Framework.SeleniumRevision.Tests.ErrorVerifications">
+        <methods>
+          <include name="LoginErrorScenario"/>
+          <include name="LoginPageObject"/>
+        </methods>
+      </class> <!-- Framework.SeleniumRevision.Tests.ErrorVerifications -->
+    </classes>
+  </test> <!-- Error Scenarios(failed) -->
+</suite> <!-- Failed suite [Suite] -->

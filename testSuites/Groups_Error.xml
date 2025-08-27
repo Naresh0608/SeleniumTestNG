@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel = "tests" name="Suite">
+
+	<groups>
+    	<run>
+       		<include name="LoginError"/>
+    	</run>
+  	</groups>
+
+ <test thread-count="5" name="Valid Scenario">
+ 	<classes>
+		<class name="Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2" />
+	</classes>
+ </test> <!-- Test -->
+  
+ <test thread-count="5" name="Error Scenarios">
+ 	<classes>
+		<class name="Framework.SeleniumRevision.Tests.ErrorVerifications" />
+	</classes>
+ </test> <!-- Test --> 
+  
+</suite> <!-- Suite -->

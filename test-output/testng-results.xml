@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-24T08:48:25Z" name="Suite" finished-at="2025-08-24T08:49:17Z" duration-ms="52065">
+    <groups>
+      <group name="LoginError">
+        <method signature="ErrorVerifications.InvalidProductErrorSceanrio()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" name="InvalidProductErrorSceanrio" class="Framework.SeleniumRevision.Tests.ErrorVerifications"/>
+        <method signature="ErrorVerifications.LoginErrorScenario()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" name="LoginErrorScenario" class="Framework.SeleniumRevision.Tests.ErrorVerifications"/>
+      </group> <!-- LoginError -->
+      <group name="ProductOrder">
+        <method signature="ProductsOrderingTestNGV2.ItemCheckout(java.util.HashMap)[pri:0, instance:Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2@7d3e8655]" name="ItemCheckout" class="Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2"/>
+      </group> <!-- ProductOrder -->
+    </groups>
+    <test started-at="2025-08-24T08:48:25Z" name="Valid Scenario" finished-at="2025-08-24T08:48:57Z" duration-ms="32377">
+      <class name="Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2">
+        <test-method is-config="true" signature="LoginPageObject()[pri:0, instance:Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2@7d3e8655]" started-at="2025-08-24T08:48:25Z" name="LoginPageObject" finished-at="2025-08-24T08:48:27Z" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageObject -->
+        <test-method signature="ItemCheckout(java.util.HashMap)[pri:0, instance:Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2@7d3e8655]" started-at="2025-08-24T08:48:27Z" name="ItemCheckout" data-provider="GetHashMapData" finished-at="2025-08-24T08:48:36Z" duration-ms="9092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{MapUserEmail=selenium@ggg.com, MapUserPassword=Hello123, MapProductName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemCheckout -->
+        <test-method is-config="true" signature="LoginPageObject()[pri:0, instance:Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2@7d3e8655]" started-at="2025-08-24T08:48:36Z" name="LoginPageObject" finished-at="2025-08-24T08:48:38Z" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageObject -->
+        <test-method signature="ItemCheckout(java.util.HashMap)[pri:0, instance:Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2@7d3e8655]" started-at="2025-08-24T08:48:38Z" name="ItemCheckout" data-provider="GetHashMapData" finished-at="2025-08-24T08:48:47Z" duration-ms="9802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{MapUserEmail=selenium@naresh.com, MapUserPassword=Hello234, MapProductName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemCheckout -->
+        <test-method is-config="true" signature="LoginPageObject()[pri:0, instance:Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2@7d3e8655]" started-at="2025-08-24T08:48:47Z" name="LoginPageObject" finished-at="2025-08-24T08:48:49Z" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageObject -->
+        <test-method signature="OrdersSectionValidation()[pri:0, instance:Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2@7d3e8655]" started-at="2025-08-24T08:48:49Z" name="OrdersSectionValidation" finished-at="2025-08-24T08:48:57Z" depends-on-methods="Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2.ItemCheckout" duration-ms="8092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrdersSectionValidation -->
+      </class> <!-- Framework.SeleniumRevision.Tests.ProductsOrderingTestNGV2 -->
+    </test> <!-- Valid Scenario -->
+    <test started-at="2025-08-24T08:48:58Z" name="Error Scenarios" finished-at="2025-08-24T08:49:17Z" duration-ms="19290">
+      <class name="Framework.SeleniumRevision.Tests.ErrorVerifications">
+        <test-method is-config="true" signature="LoginPageObject()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" started-at="2025-08-24T08:48:58Z" name="LoginPageObject" finished-at="2025-08-24T08:48:59Z" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageObject -->
+        <test-method signature="InvalidProductErrorSceanrio()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" started-at="2025-08-24T08:48:59Z" name="InvalidProductErrorSceanrio" finished-at="2025-08-24T08:49:06Z" duration-ms="6641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidProductErrorSceanrio -->
+        <test-method is-config="true" signature="LoginPageObject()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" started-at="2025-08-24T08:49:06Z" name="LoginPageObject" finished-at="2025-08-24T08:49:08Z" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageObject -->
+        <test-method signature="LoginErrorScenario()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" started-at="2025-08-24T08:49:08Z" name="LoginErrorScenario" finished-at="2025-08-24T08:49:11Z" duration-ms="3975" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Inorrect email or password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Inorrect email or password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Framework.SeleniumRevision.Tests.ErrorVerifications.LoginErrorScenario(ErrorVerifications.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorScenario -->
+        <test-method is-config="true" signature="LoginPageObject()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" started-at="2025-08-24T08:49:11Z" name="LoginPageObject" finished-at="2025-08-24T08:49:13Z" duration-ms="1587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageObject -->
+        <test-method signature="LoginErrorScenario()[pri:0, instance:Framework.SeleniumRevision.Tests.ErrorVerifications@415b0b49]" started-at="2025-08-24T08:49:13Z" name="LoginErrorScenario" finished-at="2025-08-24T08:49:16Z" duration-ms="3078" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Inorrect email or password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Inorrect email or password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Framework.SeleniumRevision.Tests.ErrorVerifications.LoginErrorScenario(ErrorVerifications.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:838)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1009)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorScenario -->
+      </class> <!-- Framework.SeleniumRevision.Tests.ErrorVerifications -->
+    </test> <!-- Error Scenarios -->
+  </suite> <!-- Suite -->
+</testng-results>
